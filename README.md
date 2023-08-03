@@ -3,8 +3,8 @@
 
    
 brew install kubectl
-
-  +----------------+       +----------------+       +-----------------------+
+```
+ +----------------+       +----------------+       +-----------------------+
  |                |       |                |       |                       |
  |   kubectl      +------>+    Minikube    +------>+  Local Kubernetes     |
  |                |       |                |       |    Cluster            |
@@ -20,6 +20,11 @@ brew install kubectl
          +------>+                                 |
                  |    Hypervisor (e.g., HyperKit)  |
                  +---------------------------------+
+
+```
+
+
+
 
 kubectl: This is the Kubernetes command-line tool. It is used to interact with Kubernetes clusters, manage resources, and deploy applications to the cluster.
 
